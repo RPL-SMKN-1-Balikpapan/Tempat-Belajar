@@ -1,0 +1,1 @@
+Ini adalah tempat khusus belajar Gletzer, Mohon jangan di ganggu gugat

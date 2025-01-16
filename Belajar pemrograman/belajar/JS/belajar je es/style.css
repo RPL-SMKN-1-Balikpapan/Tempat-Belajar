@@ -1,0 +1,19 @@
+body {
+    background: rgb(78, 85, 205);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+form {
+    display: inline;
+    color: aqua;
+    align-items: end;
+}
+
+button {
+    align-items: end;
+}
