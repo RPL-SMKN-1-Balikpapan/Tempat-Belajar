@@ -1,0 +1,31 @@
+name: Auto Commit
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # Jalankan tiap jam (ubah sesuai kebutuhan)
+  push:
+    branches:
+      - main # Trigger ketika ada perubahan di branch "main"
+
+jobs:
+  auto-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Buat Perubahan
+        run: |
+          echo "Auto-commit update $(date)" >> auto-commit-log.txt
+
+      - name: Tambahkan & Commit
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add .
+          git commit -m "Auto commit: $(date)"
+
+      - name: Push Perubahan
+        run: |
+          git push
