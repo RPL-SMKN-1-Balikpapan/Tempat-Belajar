@@ -8,6 +8,13 @@ body {
 h1 {
   text-align: center;
   color: #333;
+  background-color: aqua;
+  top: 40px;
+  left: 50%;
+  padding: 2%;
+
+  border-radius: 50%;
+
 }
 
 input {
