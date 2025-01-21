@@ -1,6 +1,7 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
+  background: rgb(174, 218, 238);
+    background: radial-gradient(circle, rgba(174, 218, 238, 1) 0%, rgba(34, 121, 224, 1) 100%);
   margin: 0;
   padding: 0;
 }
@@ -8,20 +9,30 @@ body {
 h1 {
   text-align: center;
   color: #333;
-  background-color: aqua;
-  top: 40px;
+  background: rgb(78, 183, 205);
+    background: linear-gradient(0deg, rgba(78, 183, 205, 1) 37%, rgba(69, 24, 218, 1) 100%);
+  top: 20px;
   left: 50%;
+  bottom: 10%;
   padding: 2%;
-
-  border-radius: 50%;
-
+  -otransform: translateX(-50%);
+  width: 400px;
+  height: 60px;
+  border-radius: 1cap;
+  align-items: center;
+  margin-left: 35%;
+  -webkit-border-radius: 1cap;
+  -moz-border-radius: 1cap;
+  -ms-border-radius: 1cap;
+  -o-border-radius: 1cap;
 }
 
 input {
   padding: 8px;
-  margin-right: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  margin-left: 35%;
+
 }
 
 button {
@@ -31,6 +42,8 @@ button {
   color: white;
   border-radius: 4px;
   cursor: pointer;
+  align-items: center;
+  margin-left: 18%;
 }
 
 button:hover {
@@ -40,10 +53,17 @@ button:hover {
 ul {
   list-style: none;
   padding: 0;
+  
 }
 
 li {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  padding-left: 8%;
+  margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  
+  
 }
