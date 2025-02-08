@@ -66,13 +66,17 @@ a:hover {
     position: absolute;
     top: 40px;
     left: 50%;
-    transform: translateX(-50%);
+    -otransform: translateX(-50%);
     width: 400px;
     height: 60px;
     background: linear-gradient(#7d0f40, #bb5a86);
     border-radius: 30px;
     z-index: -1;
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
 }
 
 .box2 {
