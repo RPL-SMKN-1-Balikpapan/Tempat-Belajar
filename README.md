@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-Ini adalah tempat khusus belajar Gletzer, Mohon jangan di ganggu gugat
+Open Source 
 =======
 # Tempat-Belajar
 Tempat belajar bagi Gletzer Julio Ivanees yang sangat pemalas
